@@ -1,16 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import Button from "@mui/material/Button"
+import Nav from './components/Nav/Nav';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <span>Material UI example website</span>
-
-        <div>
-          <Button variant="outlined">Click Me</Button>
-        </div>
+        
+        <Nav/>
+        
       </header>
     </div>
   );
