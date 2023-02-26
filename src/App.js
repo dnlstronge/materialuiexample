@@ -16,6 +16,9 @@ function App() {
       
           <Menus />
           <Nav sx={{width: 1}}/>
+      <Box sx={{width: 1}}>
+        <Typography>Welfare Rights</Typography>
+      </Box>
       <Box sx={{display: "flex",
                 gap: 3 }}>
         <CalcCard/>
