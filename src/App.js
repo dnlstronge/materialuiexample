@@ -17,7 +17,7 @@ function App() {
           <Menus />
           <Nav sx={{width: 1}}/>
       <Box sx={{width: 1}}>
-        <Typography>Welfare Rights</Typography>
+        <Typography variant="h5" component="h5" sx={{mb: 2}}>Welfare Rights</Typography>
       </Box>
       <Box sx={{display: "flex",
                 gap: 3 }}>
