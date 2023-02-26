@@ -6,6 +6,7 @@ import { Box } from '@mui/system';
 import { Typography } from '@mui/material';
 import Menus from './components/Nav/Menus/Menus';
 import CalcCard from './components/calculators/CalcCard';
+import CalcCard2 from './components/calculators/CalcCard2';
 
 function App() {
   return (
@@ -17,13 +18,10 @@ function App() {
           <Nav sx={{width: 1}}/>
       <Box sx={{display: "flex",
                 gap: 3 }}>
-        <CalcCard ></CalcCard>
-        <CalcCard ></CalcCard>
+        <CalcCard/>
+        <CalcCard2/>
       </Box>
-      <Box>
-        
-        
-      </Box>
+      
         
         
         
