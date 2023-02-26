@@ -45,11 +45,7 @@ export default function CalcCard2() {
             DS
           </Avatar>
         }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
+       
         title="Pension Credit"
         subheader="V.1014"
       />
@@ -92,12 +88,8 @@ export default function CalcCard2() {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
-        </IconButton>
-        <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton>
+       
+       
         <ExpandMore
           expand={expanded}
           onClick={handleExpandClick}

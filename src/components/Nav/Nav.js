@@ -33,6 +33,8 @@ export default function Nav() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 6 }}>
             Bencalc v1.02
           </Typography>
+          <Button color="inherit">Contact</Button>
+          <Button color="inherit">About</Button>
           <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>

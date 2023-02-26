@@ -44,11 +44,7 @@ export default function CalcCard() {
             DS
           </Avatar>
         }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
+     
         title="Universal Credit Calculator"
         subheader="V.1011"
       />
@@ -91,12 +87,8 @@ export default function CalcCard() {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
-        </IconButton>
-        <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton>
+        
+       
         <ExpandMore
           expand={expanded}
           onClick={handleExpandClick}
