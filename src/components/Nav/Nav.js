@@ -16,9 +16,10 @@ export default function Nav() {
                 height: 0.2,
                 alignItems: "left",
                 justifyContent: "left",
-                flexDirection: "row"
+                flexDirection: "row",
+                
     }}>
-      <AppBar position="static" >
+      <AppBar position="static" color="grey" >
         <Toolbar>
           <IconButton
             size="large"

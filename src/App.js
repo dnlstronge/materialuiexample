@@ -15,9 +15,16 @@ function App() {
       
           <Menus />
           <Nav sx={{width: 1}}/>
-      <Box>
-        <CalcCard></CalcCard>
+      <Box sx={{display: "flex",
+                gap: 3 }}>
+        <CalcCard ></CalcCard>
+        <CalcCard ></CalcCard>
       </Box>
+      <Box>
+        
+        
+      </Box>
+        
         
         
       </header>

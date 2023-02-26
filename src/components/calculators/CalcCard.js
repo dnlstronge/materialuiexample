@@ -15,6 +15,8 @@ import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import calcback from "../../Assets/calcback.jpg"
+import { Button, Link } from '@mui/material';
+import Box from '@mui/material/Box';
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -50,12 +52,38 @@ export default function CalcCard() {
         title="Universal Credit Calculator"
         subheader="V.1011"
       />
+      
       <CardMedia
         component="img"
         height="194"
         image={calcback}
         alt="UC calculator"
       />
+      <Box>
+         <Button variant="contained" sx={{mr: 1,
+                    mt: 1
+                    }}>
+           <Link 
+              href="https://uccalc-11c98.web.app" 
+              color="inherit" 
+              target="blank"
+              sx={{
+              textTransform: "capitalize",
+              textDecoration: "none"}}> live demo</Link></Button>
+        <Button variant="contained" sx={{mr: 1,
+                    mt: 1
+                    }}>
+          <Link 
+             href="https://github.com/dnlstronge/benefitscalc2" 
+             target="blank"
+             color="inherit" 
+             sx={{
+             textTransform: "capitalize",
+             textDecoration: "none"}}>github</Link>
+        </Button>
+                                        
+                                        
+      </Box>
       <CardContent>
         <Typography variant="body2" color="text.secondary">
             A quick Universal Credit calculator/reckoner for NI based
@@ -83,7 +111,7 @@ export default function CalcCard() {
           <Typography paragraph>Info</Typography>
         
         
-          <Typography paragraph>
+          <Typography paragraph sx={{textAlign: 'left'}}>
             Allows users to quickly work out universal credit entitlement estimates. It takes
             into account work status, income and personal circumstances to determine first
             the maximum amount of universal credit that the claimant could receive, and then 
