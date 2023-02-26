@@ -10,9 +10,9 @@ function App() {
     <div className="App">
       <header className="App-header">
       <Typography/>
-        <Box sx={{width: 1}}>
-          <Nav/>
-        </Box>
+        
+          <Nav sx={{width: 1}}/>
+        
         
       </header>
     </div>
