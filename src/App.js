@@ -4,14 +4,20 @@ import Button from "@mui/material/Button"
 import Nav from './components/Nav/Nav';
 import { Box } from '@mui/system';
 import { Typography } from '@mui/material';
+import Menus from './components/Nav/Menus/Menus';
+import CalcCard from './components/calculators/CalcCard';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
       <Typography/>
-        
+      
+          <Menus />
           <Nav sx={{width: 1}}/>
+      <Box>
+        <CalcCard></CalcCard>
+      </Box>
         
         
       </header>
